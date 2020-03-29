@@ -1,0 +1,180 @@
+/******* TAG SELECTORS*********************/
+h1 {
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  color: #8785a2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #8785a2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #8785a2;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  background-color: #faf4f4;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+span {
+  color: red;
+  font-weight: bolder;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted none none none;
+  border-width: 5px;
+  margin: 70px auto;
+  border-color: #ffc7c7;
+}
+
+a {
+  color: #8785a2;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffc7c7;
+}
+
+/******* CLASS SELECTORS*********************/
+.top-container {
+  background-color: #ffe2e2;
+  margin: 0;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin-top: 50px;
+}
+
+.programmer {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #ffc7c7;
+}
+
+.computer-picture {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  position: relative;
+  bottom: 30px;
+  right: 100px;
+  border-style: solid;
+  border-color: #ffc7c7;
+}
+
+.chillies-picture {
+  width: 25%;
+  float: right;
+  position: relative;
+  bottom: 30px;
+  left: 100px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #ffc7c7;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #ffe2e2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 280px;
+}
+
+.mountain {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  top: 89px;
+}
+
+.contact-me {
+  margin: 50px auto;
+}
+
+.btn {
+  margin: 30px auto;
+  background:linear-gradient(to bottom, #ffc7c7 5%, #ffc7c7 100%);
+	background-color:#ffc7c7;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 12px;
+	text-decoration:none;
+}
+
+.btn:hover {
+	background:linear-gradient(to bottom, #ffc7c7 5%, #ffc7c7 50%);
+	background-color:#ffc7c7;
+  color: #8785a2;
+}
+
+.btn:active {
+	position:relative;
+	top:4px;
+}
+
+
+.links {
+  padding-top: 20px;
+
+}
+
+.footer-link1 {
+  position: absolute;
+  left: 450px;
+}
+
+.footer-link2 {
+  position: absolute;
+  right: 450px;
+}
+
+.jm {
+  padding: 10px;
+  color: #8785a2;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+}
